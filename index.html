@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>T E M P E R A T U R E <br>C O N V E R S I O N</p>
+    <div class="box">
+        <input id="ip" type="number" placeholder="Enter Temperature">
+        <input id="tof" class="ip1" type="radio" name="typ">
+        <label for="ip1">CELSIUS -> FAHRENHEIT</label><br>
+        <input id="toc" class="ip1" type="radio" name="typ">
+        <label for="ip1">FAHRENHEIT -> CELSIUS</label><br><br>
+        <button id="bt" onclick="convert()">Submit</button>
+        <p id="op"> Select a unit</p>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
